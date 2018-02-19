@@ -1,5 +1,5 @@
 > # Reactive-Tube
-> > ### This was build using React 16 + Redux ... create-react-app to be precise :)
+> > ### This was build using React 16  [create-react-app to be precise] :)
 > <img src="https://github.com/BiggaHD/Reactive-Tube/blob/master/create-react-app.svg" height="450" width="600">
 >
 
