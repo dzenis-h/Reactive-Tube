@@ -2,7 +2,6 @@
 
 # dependencies
 /node_modules
-/src/api_key.js
 package-lock.json
 api_key.js
 
