@@ -3,8 +3,7 @@
 # dependencies
 /node_modules
 package-lock.json
-api_key.js
-/src/config/api_key.js
+/src/config/keys_dev.js
 
 # testing
 /coverage
