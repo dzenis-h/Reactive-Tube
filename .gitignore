@@ -5,6 +5,7 @@
 package-lock.json
 key_dev.js
 /src/config/key_dev.js
+\src\config\key_dev.js
 
 # testing
 /coverage
