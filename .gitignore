@@ -4,6 +4,7 @@
 /node_modules
 package-lock.json
 api_key.js
+/src/api_key.js
 
 # testing
 /coverage
