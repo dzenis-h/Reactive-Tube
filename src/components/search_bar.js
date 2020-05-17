@@ -1,27 +1,22 @@
 import React, { Component } from "react";
+import "../css/search.css";
 
 class SearchBar extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { term: "" };
-  }
+  state = { term: "" };
 
   render() {
     return (
-      <form onSubmit={onSumitPrevent}>
-        <div className="search-bar">
-          <input
-            value={this.state.term}
-            placeholder="Start SEARCHING VIDEOS here 🎦"
-            onChange={(event) => this.onInputChange(event.target.value)}
-          />
-        </div>
-      </form>
+      <div className="container">
+        {/* <h2>Reactive Tube</h2> */}
+        <input
+          type="text"
+          placeholder="Search..."
+          value={this.state.term}
+          onChange={(e) => this.onInputChange(e.target.value)}
+        />
+        <div className="search"></div>
+      </div>
     );
-  }
-
-  onSumitPrevent(e) {
-    e.prventDefault();
   }
 
   onInputChange(term) {

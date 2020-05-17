@@ -1,16 +1,25 @@
 import React from "react";
 
+import parser from "../helpers/charDecoder";
+
 const VideoListItem = ({ video, onVideoSelect }) => {
   const imageUrl = video.snippet.thumbnails.default.url;
-
+  const { title, channelTitle } = video.snippet;
   return (
-    <li onClick={() => onVideoSelect(video)} className="list-group-item">
+    <li
+      onClick={() => onVideoSelect(video)}
+      className="list-group-item list-item-custom"
+    >
       <div className="video-list media">
-        <div className="media-left">
-          <img className="media-object" src={imageUrl} alt=""/>
-        </div>
         <div className="media-body">
-          <div className="media-heading">{video.snippet.title}</div>
+          <div className="media-heading">{parser(title)}</div>
+          <div className="media-heading-channel-title">
+            {parser(channelTitle)}
+          </div>
+          {/* <div className="media-heading-channel-date">{date}</div> */}
+        </div>
+        <div className="media-right">
+          <img className="media-object" src={imageUrl} alt={title} />
         </div>
       </div>
     </li>
