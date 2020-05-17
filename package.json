@@ -1,7 +1,7 @@
 {
   "name": "reactive-tube",
-  "version": "0.1.0",
-  "author": "BiggaHD",
+  "version": "0.0.1",
+  "author": "Dzenis H.",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
