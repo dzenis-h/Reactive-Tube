@@ -6,6 +6,10 @@ package-lock.json
 key_dev.js
 /src/config/key_dev.js
 
+# firebase
+.firebase
+/.firebase
+
 # testing
 /coverage
 
