@@ -7,11 +7,11 @@ const VideoDetail = ({ video }) => {
     return <div className="loading-video"></div>;
   }
 
-  // const {videoId} = video.id.videoId;
   const {
     snippet: { description, channelTitle, title },
     id: { videoId },
   } = video;
+
   const url = `https://www.youtube.com/embed/${videoId}`;
 
   return (

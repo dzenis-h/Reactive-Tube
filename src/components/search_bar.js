@@ -1,28 +1,31 @@
-import React, { Component } from "react";
+import React, { useState, Fragment } from "react";
 import "../css/search.css";
 
-class SearchBar extends Component {
-  state = { term: "" };
+const SearchBar = (props) => {
+  const [term, setTerm] = useState("");
 
-  render() {
-    return (
+  const onSubmit = (e) => {
+    setTerm(e.target.value);
+    if (e.key === "Enter") {
+      props.onSearchTermChange(term);
+    }
+  };
+
+  return (
+    <Fragment>
+      <h2 className="brand">Reactive tube</h2>
       <div className="container">
-        {/* <h2>Reactive Tube</h2> */}
         <input
           type="text"
-          placeholder="Search..."
-          value={this.state.term}
-          onChange={(e) => this.onInputChange(e.target.value)}
+          placeholder="Search & hit Enter"
+          value={term}
+          onKeyDown={(term) => onSubmit(term)}
+          onChange={onSubmit}
         />
         <div className="search"></div>
       </div>
-    );
-  }
-
-  onInputChange(term) {
-    this.setState({ term });
-    this.props.onSearchTermChange(term);
-  }
-}
+    </Fragment>
+  );
+};
 
 export default SearchBar;
