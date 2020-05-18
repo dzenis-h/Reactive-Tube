@@ -3,12 +3,10 @@
 # dependencies
 /node_modules
 package-lock.json
-key_dev.js
 /src/config/api_key.js
 
 # firebase
 .firebase
-/.firebase
 firebase.json
 .firebaserc
 
