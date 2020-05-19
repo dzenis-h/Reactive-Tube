@@ -62,10 +62,10 @@ h2 {
 }
 
 .video-detail .details {
-  margin-top: 10px;
-  padding: 16px;
+  margin-top: 1rem;
+  padding: 3.13rem !important;
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 6px;
   background: #333333;
   color: #eee;
 }
@@ -120,7 +120,7 @@ h2 {
   color: #dcdcdc;
 }
 .video-detail .details .details-channel-title {
-  color: #52629d;
+  color: #dc143c;
   font-weight: bold;
   font-size: 20px;
 }
@@ -191,7 +191,7 @@ h2 {
 }
 
 .media-heading-channel-title {
-  color: #52629d;
+  color: #dc143c;
   font-weight: bold;
 }
 

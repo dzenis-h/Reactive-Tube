@@ -1,10 +1,11 @@
 import React from "react";
 
 import parser from "../helpers/charDecoder";
+import dateFormatter from "../helpers/dateFormatter";
 
 const VideoListItem = ({ video, onVideoSelect }) => {
   const imageUrl = video.snippet.thumbnails.default.url;
-  const { title, channelTitle } = video.snippet;
+  const { title, channelTitle, publishedAt } = video.snippet;
   return (
     <li
       onClick={() => onVideoSelect(video)}
@@ -16,7 +17,9 @@ const VideoListItem = ({ video, onVideoSelect }) => {
           <div className="media-heading-channel-title">
             {parser(channelTitle)}
           </div>
-          {/* <div className="media-heading-channel-date">{date}</div> */}
+          <div className="media-heading-channel-date">
+            {dateFormatter(publishedAt)}
+          </div>
         </div>
         <div className="media-right">
           <img className="media-object" src={imageUrl} alt={title} />

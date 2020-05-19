@@ -17,7 +17,7 @@ const SearchBar = (props) => {
       <div className="container">
         <input
           type="text"
-          placeholder="Search & hit Enter"
+          placeholder="Type & hit Enter"
           value={term}
           onKeyDown={(term) => onSubmit(term)}
           onChange={onSubmit}
