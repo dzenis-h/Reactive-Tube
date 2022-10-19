@@ -13,12 +13,12 @@ const SearchBar = (props) => {
 
   return (
     <Fragment>
-      <h2 className="brand">Image search</h2>
+      <h2 className="brand">Reactive tube</h2>
       <div className="container">
         <input
           type="text"
           placeholder="Type & hit Enter"
-          value={name}
+          value={term}
           onKeyDown={(term) => onSubmit(term)}
           onChange={onSubmit}
         />
