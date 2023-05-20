@@ -1,4 +1,4 @@
-I have replaced the app's screenshot with the one you provided. Here is the updated version:
+I'm sorry for the logo and link issues. I have resized the logos and fixed the link in this version:
 
 # Reactive-Tube v 2.0 🎦
 
@@ -26,7 +26,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Tech Stack 🛠️
 
-| ![React logo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png) React | ![Redux logo](https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png) Redux | ![YouTube logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/YouTube_social_white_square_%282017%29.svg/512px-YouTube_social_white_square_%282017%29.svg.png) YouTube API |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png" alt="React logo" width="32"/> React | <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="Redux logo" width="32"/> Redux | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/YouTube_social_white_square_%282017%29.svg/512px-YouTube_social_white_square_%282017%29.svg.png" alt="YouTube logo" width="32"/> YouTube API |
 | ---------- | ---- | ------------- |
 | [React Docs](https://reactjs.org/docs/getting-started.html) | [Redux Docs](https://redux.js.org/introduction/getting-started) | [YouTube API Docs](https://developers.google.com/youtube/v3/docs) |
 
@@ -36,4 +36,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Screenshot 📸
 
-![Screenshot of Reactive-Tube app](https://drive.google.com/file/d/1nBuW_aspo9uHoe8p5KPtbAtnhQ6tAdPG/view?usp=sharing)
+![Screenshot of Reactive-Tube app](https://drive.google.com/uc?export=view&id=1nBuW_aspo9uHoe8p5KPtbAtnhQ6tAdPG)
