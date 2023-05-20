@@ -1,4 +1,4 @@
-I apologize for the missing license and the broken link. I have fixed them in this version:
+I have replaced the app's screenshot with the one you provided. Here is the updated version:
 
 # Reactive-Tube v 2.0 🎦
 
