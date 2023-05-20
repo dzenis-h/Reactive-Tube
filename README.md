@@ -1,4 +1,4 @@
-I'm sorry for the YouTube logo issue. I have replaced it with a red play button in this version:
+I'm sorry for the YouTube logo issue. I have replaced it with a smiley play button in this version:
 
 # Reactive-Tube v 2.0 🎦
 
@@ -26,7 +26,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Tech Stack 🛠️
 
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png" alt="React logo" width="32"/> React | <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="Redux logo" width="32"/> Redux | <img src="[https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/YouTube_social_white_play.png/512px-YouTube_social_white_play.png](https://lightworkers.org/wp-content/uploads/2019/11/youtube-logo-icon-transparent-32-492x348.png)" alt="YouTube logo" width="32"/> YouTube API |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png" alt="React logo" width="32"/> React | <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="Redux logo" width="32"/> Redux | :play_or_pause_button: YouTube API |
 | ---------- | ---- | ------------- |
 | [React Docs](https://reactjs.org/docs/getting-started.html) | [Redux Docs](https://redux.js.org/introduction/getting-started) | [YouTube API Docs](https://developers.google.com/youtube/v3/docs) |
 
