@@ -1,4 +1,4 @@
-I'm sorry for the YouTube logo issue. I have replaced it with a different one in this version:
+I'm sorry for the YouTube logo issue. I have replaced it with a red play button in this version:
 
 # Reactive-Tube v 2.0 🎦
 
@@ -26,7 +26,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Tech Stack 🛠️
 
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png" alt="React logo" width="32"/> React | <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="Redux logo" width="32"/> Redux | <img src="https://logos.fandom.com/wiki/File:YouTube_2017_logo.svg" alt="YouTube logo" width="32"/> YouTube API |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png" alt="React logo" width="32"/> React | <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="Redux logo" width="32"/> Redux | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/YouTube_social_white_play.png/512px-YouTube_social_white_play.png" alt="YouTube logo" width="32"/> YouTube API |
 | ---------- | ---- | ------------- |
 | [React Docs](https://reactjs.org/docs/getting-started.html) | [Redux Docs](https://redux.js.org/introduction/getting-started) | [YouTube API Docs](https://developers.google.com/youtube/v3/docs) |
 
@@ -38,6 +38,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ![Screenshot of Reactive-Tube app](https://drive.google.com/uc?export=view&id=1nBuW_aspo9uHoe8p5KPtbAtnhQ6tAdPG)
 
-Source: Conversation with Bing, 20/05/2023(1) YouTube Brand Resources and Guidelines - How YouTube Works. https://www.youtube.com/howyoutubeworks/resources/brand-resources/ Accessed 20/05/2023.
-(2) Free YouTube Logo Maker & Creator Online | Canva. https://www.canva.com/create/youtube-logos/ Accessed 20/05/2023.
-(3) YouTube | Logopedia | Fandom. https://logos.fandom.com/wiki/YouTube Accessed 20/05/2023.
+Source: Conversation with Bing, 20/05/2023(1) YouTube Creator Awards - Wikipedia. https://en.wikipedia.org/wiki/YouTube_Creator_Awards Accessed 20/05/2023.
+(2) Play button Icons & Symbols - Flaticon. https://www.flaticon.com/free-icons/play-button Accessed 20/05/2023.
+(3) Red Diamond Play Button | Wikitubia | Fandom. https://youtube.fandom.com/wiki/Red_Diamond_Play_Button Accessed 20/05/2023.
