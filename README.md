@@ -1,6 +1,4 @@
-I'm sorry for the YouTube logo issue. I have replaced it with a smiley play button in this version:
-
-# Reactive-Tube v 2.0 🎦
+# Reactive-Tube v2.0 🎦
 
 Reactive-Tube is a fun and simple app that uses the YouTube API to search and play videos. It was built with React and Redux as a way to practice and showcase these technologies. You can try it out [here](https://reactive-tube-2.web.app/). 😊
 
